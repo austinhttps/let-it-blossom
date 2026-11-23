@@ -1,6 +1,6 @@
 {
   "name": "let-it-blossom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🌸 Let your website bloom instantly. Realistic floating cherry blossom petals with 3D flutter, wind dynamics, and mouse interaction. Zero dependencies.",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/austinhttps/npm-package-cherry-blossom.git"
+    "url": "git+https://github.com/austinhttps/let-it-blossom.git"
   },
   "keywords": [
     "cherry-blossom",
@@ -39,12 +39,12 @@
     "let-it-go",
     "spring"
   ],
-  "author": "Austin",
+  "author": "Austin M",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/austinhttps/npm-package-cherry-blossom/issues"
+    "url": "https://github.com/austinhttps/let-it-blossom/issues"
   },
-  "homepage": "https://github.com/austinhttps/npm-package-cherry-blossom#readme",
+  "homepage": "https://github.com/austinhttps/let-it-blossom#readme",
   "devDependencies": {
     "@types/node": "^22.0.0",
     "tsup": "^8.3.5",
