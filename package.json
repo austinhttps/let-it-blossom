@@ -1,0 +1,54 @@
+{
+  "name": "cherryblossom",
+  "version": "1.0.0",
+  "description": "🌸 Let your website bloom instantly. Realistic floating cherry blossom petals with 3D flutter, wind dynamics, and mouse interaction. Zero dependencies.",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "browser": "./dist/cherryblossom.global.global.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "prepublishOnly": "npm run test && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austinhttps/npm-package-cherry-blossom.git"
+  },
+  "keywords": [
+    "cherry-blossom",
+    "sakura",
+    "petals",
+    "canvas",
+    "animation",
+    "effects",
+    "particles",
+    "let-it-go",
+    "spring"
+  ],
+  "author": "Austin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/austinhttps/npm-package-cherry-blossom/issues"
+  },
+  "homepage": "https://github.com/austinhttps/npm-package-cherry-blossom#readme",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.8"
+  }
+}
