@@ -1,5 +1,5 @@
 {
-  "name": "cherryblossom",
+  "name": "let-it-blossom",
   "version": "1.0.0",
   "description": "🌸 Let your website bloom instantly. Realistic floating cherry blossom petals with 3D flutter, wind dynamics, and mouse interaction. Zero dependencies.",
   "main": "./dist/index.cjs",

@@ -1,4 +1,4 @@
-# Cherry Blossom (🌸 `cherryblossom`)
+# Let It Blossom (🌸 `let-it-blossom`)
 
 An ultra-lightweight, zero-dependency canvas library that adds realistic, floating cherry blossom petals (sakura) to any web page. Features realistic 3D fluttering, ambient wind variations, interactive mouse breeze swirl/repulsion, and retina display support.
 
@@ -15,7 +15,7 @@ An ultra-lightweight, zero-dependency canvas library that adds realistic, floati
 ## Installation
 
 ```bash
-npm install cherryblossom
+npm install let-it-blossom
 ```
 
 ## Quick Start
@@ -23,7 +23,7 @@ npm install cherryblossom
 ### ES Module / TypeScript
 
 ```typescript
-import { CherryBlossom } from "cherryblossom";
+import { CherryBlossom } from "let-it-blossom";
 
 // Start cherry blossoms falling across the page
 const blossom = new CherryBlossom();
